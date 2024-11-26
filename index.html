@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ayesha Shaikh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Ayesha profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ayeshasiddiqa Shaikh</h1>
+        <p class="section__text__p2">Full Stack Web Developer</p>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ayesha1177'"
+
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>C, C+ +, Java, HTML, CSS, JavaScript, Php,<br />SQL, Data Structures and Algorithms (DSA)</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology<br />in Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm Ayeshasiddiqa Shaikh, currently pursuing a Bachelor of Technology (B.Tech) in Information Technology at Dr. J.J. Magdum College of Engineering, Jaysingpur. With a strong foundation in programming languages and web development, I am passionate about leveraging my skills to create innovative solutions in the tech industry
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details">
+        
+          
+            <h2 class="experience-sub-title">Intern<br>at Domain Computers, Sangli</h2>
+           
+             <p>During this internship, the primary focus will be on learning Python as a programming language tailored for web development. This includes understanding frameworks such as Flask or Django, which facilitate the creation of dynamic web applications. Interns will gain hands-on experience in building web applications, working with databases, and implementing RESTful APIs. The learning approach will emphasize practical coding exercises, project-based tasks, and best practices in web development.</p> 
+              <br>
+              <br>
+             
+          
+            <h2 class="experience-sub-title">Intern<br>at Angel Techno Hub Solutions, Kolhapur</h2>
+            
+            <p>During this internship, the primary focus will be on building end-to-end web applications using the MERN stack, which includes MongoDB, Express.js, Node.js, and React. Interns will gain hands-on experience in developing full-stack applications, from setting up the backend server with Node.js and Express to creating dynamic user interfaces with React. This will involve implementing RESTful APIs, managing user authentication, and ensuring seamless communication between the frontend and backend.</p>
+      
+      </div>
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="project details">
+      
+      <h2>Cash flow Minimizer</h2><br>
+      <p>The "Cash Flow Minimizer" project, implemented in C++, utilized data structures and algorithms (DSA) to optimize cash flow management by efficiently handling
+        large volumes of financial data.<br>
+        The system identifies and consolidates transactions, automates payment scheduling, and prioritizes cash allocations based on real-time data.</p><br><br>
+  
+      <h2>Graph Algorithms Implementation</h2><br>
+      <p>The "Graph Algorithms Implementation" project focused on solving real-world problems by modeling and analyzing complex systems through graph-based
+        structures in C++.<br>
+        the project provided a high-performance, versatile solution for solving complex graph problems.</p><br><br>
+  
+      <h2>Stoct Price Prediction using ML</h2><br>
+      <p>The "Stock Price Prediction" project used machine learning in Python to predict future stock prices based on historical data.<br>
+        The project successfully delivered a predictive model that accurately forecasted stock prices over short-term horizons, achieving a notable reduction in
+        prediction errors.</p><br><br>
+  
+      <h2>Chat Website using MERN</h2><br>
+      <p>The "Chat Website" project involved building a real-time chat application using the MERN stack (MongoDB, Express, React, Node.js).<br>
+        The project successfully resulted in a fully functional, responsive chat website that allowed users to communicate in real time.</p><br><br>
+  
+      </div>
+      
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ayeshasiddiqa2402@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/shaikh-ayeshasiddiqa-842735265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
